@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = install -o "$1" = upgrade ]; then
+  dpkg-divert --add --rename --package ubuntu-butterfly-default-settings --divert /etc/adduser.conf.distrib /etc/adduser.conf
+fi
+
+#DEBHELPER#

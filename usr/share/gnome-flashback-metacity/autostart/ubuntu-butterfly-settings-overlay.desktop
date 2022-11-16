@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Settings Overlay
+Comment=Ubuntu Butterfly Settings Overlay
+Exec=/usr/lib/ubuntu-butterfly/ubuntu-butterfly-settings-overlay
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=
+NoDisplay=true

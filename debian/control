@@ -1,0 +1,24 @@
+Source: ubuntu-butterfly-settings
+Section: x11
+Priority: optional
+Maintainer: Ubuntu Butterfly Team <team@ubuntu-butterfly.org>
+Build-Depends: debhelper (>= 13),
+Standards-Version: 4.1.3
+Homepage: https://github.com/butterfly-garden/ubuntu-butterfly-settings
+Vcs-Git: https://github.com/butterfly-garden/ubuntu-butterfly-settings.git
+Vcs-Browser: https://github.com/butterfly-garden/ubuntu-butterfly-settings
+
+Package: ubuntu-butterfly-default-settings
+Architecture: all
+Depends: desktop-file-utils,
+         fish,
+         libglib2.0-bin,
+         ${misc:Depends},
+Description: Default settings for Ubuntu Butterfly
+ Various system settings tailored for Ubuntu BUtterfly.
+
+Package: ubuntu-butterfly-live-settings
+Architecture: all
+Depends: ${misc:Depends},
+Description: Default settings for Ubuntu Butterfly live image
+ Various system settings tailored for Ubuntu MATE live image.

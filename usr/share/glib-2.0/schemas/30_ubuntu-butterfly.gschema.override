@@ -1,0 +1,67 @@
+[org.gnome.desktop.background:GNOME-Flashback]
+color-shading-type='vertical'
+picture-uri='file:///usr/share/backgrounds/ubuntu-butterfly.png'
+primary-color='#FF135B'
+secondary-color='#F096AE'
+
+[org.gnome.desktop.datetime:GNOME-Flashback]
+automatic-timezone=true
+
+[org.gnome.desktop.interface:GNOME-Flashback]
+color-scheme='prefer-dark'
+cursor-theme='Yaru'
+document-font-name='Ubuntu 11'
+enable-hot-corners=false
+font-name='Ubuntu 11'
+gtk-theme='Yaru-red-dark'
+icon-theme='Yaru-red-dark'
+monospace-font-name='Ubuntu Mono 13'
+
+[org.gnome.desktop.media-handling:GNOME-Flashback]
+automount-open=false
+
+[org.gnome.desktop.privacy:GNOME-Flashback]
+remember-app-usage=false
+remember-recent-files=false
+report-technical-problems=false
+send-software-usage-stats=false
+
+[org.gnome.desktop.screensaver:GNOME-Flashback]
+color-shading-type='vertical'
+lock-enabled=false
+picture-uri='file:///usr/share/backgrounds/ubuntu-butterfly.png'
+primary-color='#FF135B'
+secondary-color='#F096AE'
+user-switch-enabled=false
+
+[org.gnome.desktop.session:GNOME-Flashback]
+idle-delay=0
+
+[org.gnome.desktop.sound:GNOME-Flashback]
+theme-name='Yaru'
+
+[org.gnome.desktop.wm.preferences:GNOME-Flashback]
+button-layout=':minimize,maximize,close'
+theme='Yaru'
+titlebar-font='Ubuntu Bold 11'
+titlebar-uses-system-font=false
+
+[org.gnome.gedit.preferences.editor]
+scheme='Yaru-dark'
+editor-font='Ubuntu Mono 13'
+
+[org.gnome.gnome-flashback.desktop.background:GNOME-Flashback]
+fade=true
+
+[org.gnome.gnome-flashback.desktop.icons:GNOME-Flashback]
+show-home=false
+show-trash=false
+
+[org.gnome.metacity:GNOME-Flashback]
+alt-tab-thumbnails=true
+
+[org.gnome.metacity.theme:GNOME-Flashback]
+name='Yaru'
+
+[org.gnome.gnome-panel.general:GNOME-Flashback]
+default-layout='ubuntu-butterfly'

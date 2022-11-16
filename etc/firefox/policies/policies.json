@@ -1,0 +1,9 @@
+{
+  "policies": {
+    "Homepage": {
+      "URL": "https://ubuntu-butterfly.org/",
+      "Locked": false,
+      "StartPage": "homepage"
+    }
+  }
+}

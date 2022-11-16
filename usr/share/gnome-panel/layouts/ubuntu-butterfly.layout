@@ -1,0 +1,20 @@
+[Toplevel top-panel]
+expand=true
+orientation=top
+size=26
+
+[Object menu-bar]
+object-iid=org.gnome.gnome-panel.menu::menu-bar
+toplevel-id=top-panel
+pack-index=0
+
+[Object window-list]
+object-iid=org.gnome.gnome-panel.wncklet::window-list
+toplevel-id=top-panel
+pack-index=1
+
+[Object indicators]
+object-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+toplevel-id=top-panel
+pack-type=end
+pack-index=0
